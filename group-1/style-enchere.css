@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: antiquewhite;
+}
+
+/*disposition logo & boutons*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0px 40px;
+  padding: 10px;
+  height: 120px;
+
+  font-size: larger;
+}
+
+/*taille image*/
+
+#logonomecole {
+  display: flex;
+  align-items: center;
+}
+
+#logonomecole > img {
+  width: 80px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+/*espacement boutons & display*/
+
+#boutons {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.lignes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.carte {
+  background-color: rgb(35, 93, 81);
+  border: 5px solid rgb(35, 93, 81);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(230, 1, 0);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+p,
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.link {
+  background-color: rgb(230, 1, 0);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.para {
+  align-items: start;
+}
+
+/*STYLE FOOTER */
+
+footer {
+  background-color: antiquewhite;
+}
+
+#contenufooter {
+  margin: 0px 40px;
+  padding: 10px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #faebd7ca;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  border-bottom: 3px solid red;
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.liens {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.liens a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  color: green;
+  font-size: 20px;
+}
+
+.liens a:hover {
+  color: red;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 320px;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(243, 239, 235);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-title {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: dashed;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  color: green;
+  font-size: 26px;
+}
+
+.card-para1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.card-para2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.card-link {
+  border: 1px solid red;
+  padding: 7px;
+  background-color: red;
+  color: black;
+  text-decoration: none;
+  border-radius: 40px;
+  position: relative;
+  left: 75%;
+  bottom: 5%;
+  width: 30px;
+  height: 25px;
+}
+
+.card-link:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 3px solid red;
+  padding: 20px;
+}
+
+.legals {
+  width: 135px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  justify-content: center;
+}
